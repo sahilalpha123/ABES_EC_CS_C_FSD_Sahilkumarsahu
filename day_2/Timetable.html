@@ -5,10 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    table {
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 10px;
+    }
+    .dbms{
+        background-color: bisque;
+    }
+    .daa{
+        background-color: rgb(255, 204, 153);
+    }
+    .aosc{
+        background-color: rgb(255, 153, 153);
+    }
+    .dsa{
+        background-color: rgb(255, 102, 102);
+    }
+    .fsd{
+        background-color: rgb(233, 187, 187);
+    }
+    
+    .qalr{
+        background-color: rgb(255, 255, 153);
+    }
+    .wt{
+        background-color: rgb(153, 204, 255);
+    }
+    .oosd{
+        background-color: rgb(153, 255, 153);
+    }
+</style>
 <body>
-    <table border="2" style="border:2px solid black;">
+    <table border="2px">
         <tr>
-            <th rowspan="2">DAY/Time</th>
+            <th rowspan="2">Day/Time</th>
             <th>1</th>
             <th>2</th>
             <th></th>
@@ -33,61 +68,52 @@
             <td>3:40-4:30</td>
         </tr>
         <tr>
-            <th>MONDAY</th>
-            <td>DBMS</td>
-            <td>DAA</td>
-            <td rowspan="5" style="background-color: lightgrey;">SHORT BREAK</td>
-            <td colspan="2">QA/LR</td>
-            <td>FSD</td>
-            <td rowspan="5" style="background-color: lightgrey;">LUNCH</td>
-            <td>OOSD</td>
-            <td colspan="2">LAB1</td>
+            <td>Monday</td>
+            <td class="dbms">DBMS</td>
+            <td class="daa">DAA</td>
+            <td rowspan="5" style="background-color: hsl(187, 64%, 76%);">Break</td>
+            <td colspan="2" class="qalr">QA/LR</td>
+            <td class="wt">WT</td>
+            <td rowspan="5" style="background-color: rgb(134, 230, 234);">Lunch Break</td>
+            <td class="oosd">OOSD</td>
+            <td class="daa" colspan="2">DAA lab</td>
         </tr>
         <tr>
-            <th>TUESDAY</th>
-            <td>WT</td>
-            <td>DSA</td> 
-            <td colspan="2">DBMS LAB</td>
-            <td>AOSC</td>
-            <td>OOSD</td>
-            <td>OOSD</td>
-            <td>OOSD</td>
+            <td>Tuesday</td>
+            <td class="oosd">OOSD</td>
+            <td class="wt">WT</td>
+            <td class="dbms">DBMS</td>
+            <td class="aosc">AOSC</td>
+            <td class="dbms">DBMS</td>
+            <td class="wt">WT</td>
+            <td colspan="2" class="dbms">DBMS lab</td>
         </tr>
         <tr>
-            <th>WEDNESDAY</th>
-            <td>DSA</td>
-            <td>DSA</td> 
-            <td>DBMS</td>
-            <td>DBMS</td>
-            <td>DBMS</td>
-            <td>OOSD</td>
-            <td>OOSD</td>
-            <td>OOSD</td>
+            <td>Wednesday</td>
+            <td class="wt">WT</td>
+            <td class="daa">DAA</td>
+            <td colspan="2">DOMAIN TRAINING</td>
+            <td class="wt">WT lab</td>
+            <td class="daa">DAA</td>
+            <td class="oosd">OOSD</td>
+            <td class="aosc">AOSC</td>
         </tr>
         <tr>
-            <th>THRUSDAY</th>
-            <td>DSA</td>
-            <td>DSA</td> 
-            <td>DBMS</td>
-            <td>DBMS</td>
-            <td>DBMS</td>
-            <td>OOSD</td>
-            <td>OOSD</td>
-            <td>OOSD</td>
+            <td>Thursday</td>
+            <td colspan="2" class="dsa">DSA TRAINING</td>
+            <td class="dsa">DSA TRAINING</td>
+            <td colspan="2" class="fsd">FSD TRAINING</td>
+            <td>SS</td>
+            <td colspan="2">Applied AI</td>
         </tr>
         <tr>
-            <th>FRIDAY</th>
-            <td>FSD</td>
-            <td>DSA</td> 
-            <td>DBMS</td>
-            <td>DBMS</td>
-            <td>DBMS</td>
-            <td>OOSD</td>
-            <td>OOSD</td>
-            <td>OOSD</td>
+            <td>Friday</td>
+            <td class="aosc">AOSC</td>
+            <td class="daa">DAA</td>
+            <td class="dbms">DBMS</td>
+            <td colspan="2" class="fsd">FSD TRAINING</td>
+            <td colspan="3" class="dsa">DSA Training</td>
         </tr>
-
-        
     </table>
 </body>
 </html>

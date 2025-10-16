@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="bulb"></div>
+    <input type="button" value
 </body>
 </html>
